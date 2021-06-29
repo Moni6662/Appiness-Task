@@ -1,0 +1,124 @@
+body{overflow: hidden;}
+
+::-webkit-input-placeholder {
+    font-style: normal;
+    text-transform: capitalize;
+    padding-left:20px !important;
+}
+::-webkit-input-placeholder:focus {
+    font-style: normal;
+  
+    padding-left:20px !important;
+    outline: none;
+}
+
+
+:-moz-placeholder { 
+    font-style: normal;
+    text-transform: capitalize;
+    padding-left:20px !important;   
+}
+
+:-moz-placeholder:focus { 
+font-style: normal;
+text-transform: capitalize;
+padding-left:20px !important;   
+outline: none !important;
+}
+
+:-moz-placeholder {
+    font-style: normal; 
+    text-transform: capitalize;
+    padding-left:20px !important; 
+} 
+:-moz-placeholder :focus{
+font-style: normal; 
+text-transform: capitalize;
+padding-left:20px !important; 
+outline: none !important;
+} 
+:-ms-input-placeholder { 
+    font-style: normal;
+    text-transform: capitalize;
+    padding-left:20px !important;
+    
+}
+:-ms-input-placeholder :focus{ 
+font-style: normal;
+text-transform: capitalize;
+padding-left:20px !important;
+outline: none !important;
+
+} 
+ 
+
+.login_form{
+    position: absolute;
+    padding: 20px 0;
+  background-color: rgb(14, 13, 13);
+  margin-top: 30%;
+  margin-left: 47%;
+  height: 200px;
+  box-shadow: 0 1px 6px rgba(82, 72, 72, 0.12), 0 1px 4px rgba(82, 72, 720.24);
+
+}
+.col{margin:10px !important}
+input{border-radius: 5px;border: none;}
+
+
+button{
+    border-radius: 5px;border: none; float: right;position: relative;
+    display: block;
+   
+    right: 22px;}
+
+.login_page{
+    background-image: url(../src/component/image/pexels-lisa-1006293.jpg);
+    height: 920px;
+    margin-top: -250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login_form p{color: red; font-size: 10px;margin:0;padding: 0;}
+
+/* dashboard_page */
+
+.container {
+    max-width: 100% !important;
+   
+}
+.dashboard_page{
+    background-image: url(../src/component/image/pexels-johannes-plenio-1103970.jpg);
+    height: 920px;
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+table{border: 1px solid black !important}
+
+h1{
+background-color: yellow;
+
+}
+
+table.center {
+   
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+td , th{
+    border: 1px solid black !important;
+    background-color: #fff;
+    color: black;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 12px 35px;
+}
+.logout-submit{ margin-left: 50%;}
+@media(max-width:670px){
+  
+}
